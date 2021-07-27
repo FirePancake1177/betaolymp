@@ -2,20 +2,39 @@
   "name": "betaolymp",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.12.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongodb-client-encryption": "^1.2.6",
+    "mongoose": "^5.13.2",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.6.0",
+    "pg-native": "^3.0.0",
     "react": "^17.0.2",
+    "react-async": "^10.0.1",
+    "react-bootstrap": "^1.6.1",
+    "react-datasheet": "^1.4.9",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "server": "nodemon backend/server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +53,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.34",
+    "nodemon": "^2.0.9",
+    "react-data-grid": "^7.0.0-beta.0",
+    "react-router-dom": "^5.2.0",
+    "react-spreadsheet": "^0.5.5"
   }
 }
